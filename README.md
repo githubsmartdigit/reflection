@@ -10,19 +10,13 @@ Instantiate by name and parameters array
 $instance = Dispatcher::create(string $class, array $params = [])
 ```
 
-After create and instance allow to methods from underlying object
+Call intanse method by name and parameters array
 
 ```php
 $instance->run(string $method, array $params = [])
 ```
 
-Get the underlying object
-
-```php
-$instance->obj()
-```
-
-Call a static method
+Call static method by name and parameters array
 
 ```php
 Dispatcher::dispatch(string $class, string $method, array $params= [])
