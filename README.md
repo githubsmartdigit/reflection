@@ -3,6 +3,7 @@
 >Several utilities around php reflection 
 
 ### Dispatcher::class
+---
 Instantiate by name and parameters array
 
 ```php
@@ -28,6 +29,7 @@ Dispatcher::dispatch(string $class, string $method, array $params= [])
 ```
 
 ### Method::class
+---
 Get a list of current method parameter names
 
 ```php
