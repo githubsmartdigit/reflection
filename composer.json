@@ -1,0 +1,19 @@
+{
+    "name": "xooxx/reflection",
+    "description": "A different way to class methods",
+    "type": "library",
+    "autoload": {
+        "psr-4": { "Xooxx\\Reflection\\": "src/" }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xooxx",
+            "email": "xooxx.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2"
+    }
+}
