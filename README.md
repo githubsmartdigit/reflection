@@ -2,7 +2,7 @@
 
 >Several utilities around php reflection 
 
-###Dispatcher::class
+### Dispatcher::class
 Instantiate by name and parameters array:
 
 ```php
