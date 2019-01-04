@@ -3,7 +3,7 @@
 >Several utilities around php reflection 
 
 ### Dispatcher::class
-Instantiate by name and parameters array:
+Instantiate by name and parameters array
 
 ```php
 $instance = Dispatcher::create(string $class, array $params = [])
@@ -25,4 +25,11 @@ Call a static method
 
 ```php
 Dispatcher::dispatch(string $class, string $method, array $params= [])
+```
+
+### Method::class
+Get a list of current method parameter names
+
+```php
+Method::parameters(string $class = null, string $method = null): array
 ```
